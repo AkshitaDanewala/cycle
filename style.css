@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    background-color: rgb(23,32,47);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: white; */
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logoimg{
+    height: 8vh;
+    width: 4vw;
+    object-fit: cover; 
+}
+nav >h1{
+    font-family: 'Oswald', sans-serif;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    font-size: 1.4vmax;
+    margin: 0 1.5vmax;
+    font-family: 'Oswald', sans-serif;
+    
+}
+h6{
+    font-size: 1.8vmax;
+}
+.pg1-left{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5vmax 2vmax;
+    
+}
+.pg1-left >h2{
+    font-size: 5vmax;
+    line-height: 5.8vmax;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.pg1-left >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    padding: 0 1.5vmax;
+    color: rgb(189, 182, 182);
+}
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 0.8vmax 1vmax;
+    border-radius: 0.4vmax;
+    border: none;
+    font-size: 1.3vmax;
+    background-color: orangered;
+    font-weight: bold;
+
+}
+.btn-box >h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    color: orangered;
+    margin-left: 2vmax;
+}
+.map{
+    font-size: 1.3vmax;
+    color: orangered;
+
+}
+.icons{
+    height: 7vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-8vmax,5vmax);
+    color: white;
+}
+.icons >h6{
+    margin: 0 0.6vmax;
+    font-size: 1.3vmax;
+}
+.pg1-right{
+    height: 100%;
+    width: 80%;
+    padding-top: 10vh;
+    /* background-color: yellowgreen; */
+    background-color: rgb(23,32,39);
+ /* transform: skewX(-28deg); */
+ position: relative;
+ left: 11%;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+
+}
+.cycle{
+    position: absolute;
+    z-index: 999;
+height: 90vh;
+width: 63vw;
+    /* transform: rotate(250deg); */
+    left: -7%;
+    top:1%;
+    background-image: url("https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dw4e827730/Products/Trot/BSTRO24BKOR004/04.png?sh=523&sfrm=png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+}
+.box1, .box2{
+    height: 23vh;
+    width: 19vw;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1vmax;
+    color: white;
+    border-radius: 1vmax;
+}
+.box1img, .box2img{
+    height: 12vh;
+    width: 7vw;
+    border-radius: 1vmax;
+}
+.box1-content >h5, .box2-content >h5{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.3vmax;
+text-align: center;
+}
+.box1-content >p, .box2-content >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+    color: rgb(182, 177, 177);
+    margin-left: 1.5vmax;
+    margin-top: 0.5vmax;
+}
